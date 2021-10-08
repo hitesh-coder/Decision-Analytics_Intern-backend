@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">My Unsplash Frontend</h1>
+<h1 align="center">Meet Schedular</h1>
 
 > Front-end app at [HERE](https://github.com/hitesh-coder/Decision-Analytics_Intern-frontend)
 
