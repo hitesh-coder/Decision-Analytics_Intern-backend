@@ -23,13 +23,13 @@ app.use("/api/auth", authRoutes);
 app.use("/api/meet", calendarRoutes);
 
 // Handle Production
-// if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
     // Static folder
     app.use(express.static(__dirname + '/public/'))
 
     // Handle SPA
     app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'))
-// };
+};
 
 app.listen(port, () => {
     console.log(`App listining on ${port}`)
